@@ -19,7 +19,7 @@ public interface UserService {
 
     void deleteUserById(int id) throws UserNotFoundException;
 
-    void updateUser(User user);
+    void updateUser(User user) throws UserNotFoundException;
 
     // TODO Bu class a dokunmayiniz....OOP Abstraction
 }

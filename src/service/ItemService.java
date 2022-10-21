@@ -16,7 +16,7 @@ public interface ItemService {
 
     void deleteItemById(int id) throws ItemNotFoundException;
 
-    void updateItem(Item item);
+    void updateItem(Item item) throws ItemNotFoundException;
 
     // TODO Bu class a dokunmayiniz....OOP Abstraction
 }

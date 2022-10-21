@@ -1,4 +1,4 @@
-package database;
+package itemService;
 
 import entity.Item;
 import entity.User;
